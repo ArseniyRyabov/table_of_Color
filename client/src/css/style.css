@@ -1,0 +1,140 @@
+/*Reset*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+a{-webkit-tap-highlight-color: transparent;}
+
+/*fonts*/
+@font-face {
+    font-family: Rustico-Regular;
+    font-display: swap;
+    src: url("../fonts/Rustico-Regular.woff2") format("woff2"), url("..\fonts\Rustico-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: ColorTube;
+    font-display: swap;
+    src: url("../fonts/ColorTube-Regular.woff2") format("woff2"), url("..\fonts\ColorTube-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: SpaceGrotesk;
+    font-display: swap;
+    src: url("../fonts/SpaceGrotesk-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*base*/
+html,body{height:100%;width:100%;font-size:20px;background-color: #ffffff;color: #ffffff;font-family: 'SpaceGrotesk'; line-height:1.5;}
+.wrapper{
+    min-height: 100%;
+    background-image: url("../img/base-color.jpg");
+    background-repeat: repeat;
+}
+
+/*header*/
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header__container {
+    max-width: 1200;
+    height: 200px;
+}
+.header-text {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-family: 'ColorTube';
+    color: #ffffff;
+    font-size: 40px;
+    z-index: 3;
+    position: relative;
+    padding: 40px 0;
+}
+
+/*main*/
+.color-table {
+    width: 1000px;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+}
+.color-table__collection {
+    padding: 0;
+    max-width: 1200px;
+    margin: 0px auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 4mm ridge rgba(255, 255, 255, .9);
+}
+.block-copy img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float:left
+}
+.block-copy{
+    width: 30px;
+    height: 27px;
+}
+.text-color{
+    padding: 0px 0px 0px 0px;
+    left: 33px;
+    bottom: 29px;
+    position: relative;
+}
+.icon-copy{
+}
+.button-block-copy{
+    width: 30px;
+    height: 30px;
+}
+.col {
+    flex: 1 1 500px;
+    flex-grow: 1;
+    height: 100%;
+    margin: 0;
+}
+.color_1{
+    background-color: #f88500;
+}
+.color_2{
+    background-color: #333333;
+}
+.color_3{
+    background-color: #202328;
+}
+.color_4{
+    background-color: #171a1a;
+}
+.color_5{
+    background-color: #f38506;
+}
+.color_6{
+    background-color: #794f45;
+}
+.color_7{
+    background-color: #77608d;
+}
+.color_8{
+    background-color: #7a956b;
+}
