@@ -92,6 +92,7 @@ html,body{height:100%;width:100%;font-size:20px;background-color: #ffffff;color:
     flex-direction: column;
     flex-wrap: wrap;
     border: 4mm ridge rgba(255, 255, 255, .9);
+    z-index: 5;
 }
 .block-copy img{
     width: 30px;
